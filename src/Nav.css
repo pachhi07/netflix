@@ -1,9 +1,10 @@
 .nav {
-  display: flex;
+  /* display: flex; */
   position: fixed;
   top: 0;
   height: 30px;
-  background-color: #111;
+  width: 100%;
+  padding: 20px;
   z-index: 1;
 
   /* animations */
@@ -16,6 +17,15 @@
 }
 
 .nav_logo {
-  width: 200px;
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.nav_avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
   object-fit: contain;
 }
